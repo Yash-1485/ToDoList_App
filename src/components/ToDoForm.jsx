@@ -54,7 +54,7 @@ const ToDoForm = () => {
                 <button type="submit" className="px-6 py-2 md:py-4 rounded-full border-0 cursor-pointer text-lg font-medium bg-indigo-500 text-white">ADD <span className="text-2xl">+</span></button>
             </form>
 
-            <div className="todoList w-full">
+            <div className="todoList w-full overflow-auto h-80 scrollbar-thin">
                 {
                     todoList.map((td,key)=>{
                         return <TodoItem key={key} text={td.text} id={td.id} isComplete={td.isComplete} deleteToDo={deleteToDo} toggle={toggle}/>
