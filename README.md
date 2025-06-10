@@ -9,6 +9,7 @@ A clean and modern Todo List application built using **React** and **TailwindCSS
 - Remove tasks from the list
 - Responsive design with TailwindCSS
 - Local state management using React Hooks
+- Filter Completed and Uncompleted Tasks
 
 ## 🛠 Tech Stack
 
@@ -19,7 +20,7 @@ A clean and modern Todo List application built using **React** and **TailwindCSS
 
 ## 📸 Screenshots
 
-![Todo App Screenshot](src/assets/ToDoListPreview.png)
+![Todo App Screenshot](src\assets\ToDoListPreview.png)
 
 ## 🚀 Getting Started
 
