@@ -1,12 +1,60 @@
-# React + Vite
+# ✅ React Todo List App with TailwindCSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and modern Todo List application built using **React** and **TailwindCSS**. This app allows users to add, complete, and remove daily tasks, with responsive design and smooth UI interactions.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add new tasks with validation
+- Mark tasks as complete/incomplete
+- Remove tasks from the list
+- Responsive design with TailwindCSS
+- Local state management using React Hooks
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://reactjs.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- JavaScript (ES6+)
+- Vite
+
+## 📸 Screenshots
+
+![Todo App Screenshot](src\assets\ToDoListPreview.png)
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or later)
+- npm or yarn
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/react-todo-tailwind.git
+cd react-todo-tailwind
+```
+
+2. Install Dependencies
+```
+npm install
+```
+
+3. Start the deployment server
+```
+npm run dev
+```
+
+4. Folder Structure
+```
+├── public
+├── src
+│   ├── components
+│   │   ├── TodoItem.jsx
+│   │   └── TodoForm.jsx
+|   |   └── TodoList.jsx 
+│   ├── App.jsx
+│   └── main.jsx
+├── vite.config.js
+└── README.md
+```
