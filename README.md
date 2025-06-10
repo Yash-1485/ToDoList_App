@@ -19,7 +19,7 @@ A clean and modern Todo List application built using **React** and **TailwindCSS
 
 ## 📸 Screenshots
 
-![Todo App Screenshot](src\assets\ToDoListPreview.png)
+![Todo App Screenshot](src/assets/ToDoListPreview.png)
 
 ## 🚀 Getting Started
 
