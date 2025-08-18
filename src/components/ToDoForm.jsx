@@ -12,12 +12,10 @@ const ToDoForm = () => {
         e.preventDefault();
         
         const task=e.target.todo.value.trim();
-        // const task=todo;
         if(task === ""){
             return null;
         }
         
-        // console.log(task);
         const newToDo={
             id: Date.now(),
             text: task,
